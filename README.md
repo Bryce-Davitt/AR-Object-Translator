@@ -10,15 +10,12 @@ An augmented reality application that helps Spanish speakers learn English by di
 - **Object Tracking**: Smooth animations and fade effects for detected objects
 - **Interactive Sidebar**: Shows all currently detected words with learning tips
 
-## Screenshots
-
-*[Add screenshots here once you have them]*
 
 ## Installation
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Python 3 or higher
 - Webcam
 - Git
 
@@ -113,44 +110,9 @@ ar-english-word-app/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
 
-- [Ultralytics](https://github.com/ultralytics/ultralytics) for YOLOv5
-- [OpenCV](https://opencv.org/) for computer vision capabilities
-- [PyTorch](https://pytorch.org/) for deep learning framework
-
-## Troubleshooting
-
-### Common Issues
-
-**"No module named 'cv2'"**
-```bash
-pip install opencv-python
-```
-
-**"No module named 'ultralytics'"**
-```bash
-pip install ultralytics
-```
 
 **Camera not working**
 - Check if your webcam is connected and not in use by another application
 - Try running with a different camera index in `config.py`
 
-**Slow performance**
-- Reduce camera resolution in `config.py`
-- Increase `DETECTION_INTERVAL` to skip more frames
-- Use a smaller YOLO model (yolov5s.pt instead of yolov5x.pt)
-
-## Future Enhancements
-
-- [ ] Add pronunciation audio for English words
-- [ ] Implement word difficulty levels
-- [ ] Add vocabulary tracking and progress
-- [ ] Support for multiple languages
-- [ ] Integration with language learning APIs
-- [ ] Mobile app version
-
-## Support
-
-If you encounter any issues or have questions, please open an issue on GitHub. 
