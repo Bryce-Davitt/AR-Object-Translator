@@ -1,7 +1,6 @@
 # AR English Word App
 
-An augmented reality application that helps Spanish speakers learn English by displaying English words for objects detected through the camera.
-
+An augmented reality application that helps Spanish speakers learn English by displaying English words for objects detected through the camera. The files needed to run the translator are too large, send me an email if you'd like all the necessary code.
 ## Features
 
 - **Real-time Object Detection**: Uses YOLOv5 to detect objects in your camera feed
